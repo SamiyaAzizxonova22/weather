@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   background-color: #eeede2;
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
@@ -48,6 +49,7 @@ body {
 }
 
 .form-control{
+  width: 100%;
   background-color: transparent;
   border: none;
   border-bottom: 4px solid rgba(64, 62, 62, 0.539);
@@ -57,4 +59,5 @@ body {
 .form-control:focus{
   color: rgb(54, 51, 51);
   background-color: transparent;
+  outline: none;
 }
